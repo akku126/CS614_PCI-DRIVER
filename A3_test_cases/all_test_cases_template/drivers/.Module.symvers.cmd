@@ -1,0 +1,1 @@
+cmd_/home/aman/Assignment3/A3_test_cases/all_test_cases_template/drivers/Module.symvers :=  sed 's/ko$$/o/'  /home/aman/Assignment3/A3_test_cases/all_test_cases_template/drivers/modules.order | scripts/mod/modpost      -o /home/aman/Assignment3/A3_test_cases/all_test_cases_template/drivers/Module.symvers -e -i Module.symvers -T - 
